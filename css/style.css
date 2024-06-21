@@ -18,6 +18,7 @@ ul{
 
 .site-logo{
     font-family: sans-serif;
+    color: rgb(3, 110, 91);
 }
 
 .menu-list{
@@ -29,7 +30,7 @@ ul{
 .menu-link{
     text-decoration: none;
     font-weight: bold;
-    color: brown;
+    color: rgb(3, 110, 91);
     font-size: 22px;
 }
 
@@ -40,20 +41,18 @@ ul{
 }
 
 .home-title{
-position: absolute;
-padding: 50px;
-background-color: brown;
-color: aliceblue;
-font-size: 32px;
+
 }
 
 .home-bg-image{
     width: 100%;
+    border-radius: 30px;
 }
 
 .promotions-title{
     text-align: center;
     margin: 40px 0;
+    color: rgb(3, 110, 91);
 }
 
 .promotions-images{
@@ -63,7 +62,8 @@ font-size: 32px;
 }
 
 #promotions .image-item{
-    width: 405px;
-    height: 251px;
-    background-image: url(https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/main/public/collection-1.png);
-}
+    width: 635px;
+    height: 451px;
+    background-image: url(https://www.melissa.com.br/ccstore/v1/images/?source=/file/v5485647716565119949/products/cor.36066.36066BE51411_o.jpg&height=550&width=550);
+    border-radius: 20px;
+}  
