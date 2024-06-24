@@ -19,6 +19,7 @@ ul{
 .site-logo{
     font-family: sans-serif;
     color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu-list{
@@ -31,7 +32,11 @@ ul{
     text-decoration: none;
     font-weight: bold;
     color: rgb(3, 110, 91);
-    font-size: 22px;
+    font-size: 15px;
+}
+
+.img{
+    width: 14px;
 }
 
 #home{
@@ -46,13 +51,14 @@ ul{
 
 .home-bg-image{
     width: 100%;
-    border-radius: 30px;
 }
 
 .promotions-title{
     text-align: center;
     margin: 40px 0;
     color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
 }
 
 .promotions-images{
@@ -62,8 +68,31 @@ ul{
 }
 
 #promotions .image-item{
-    width: 635px;
-    height: 451px;
-    background-image: url(https://www.melissa.com.br/ccstore/v1/images/?source=/file/v5485647716565119949/products/cor.36066.36066BE51411_o.jpg&height=550&width=550);
-    border-radius: 20px;
+    width: 675px;
+    height: 301px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3314202-500-750/326890_46697_2-VESTIDO-LONGO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638452398480100000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
 }  
+
+#promotions .image-item2{
+    width: 675px;
+    height: 301px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3336966-500-750/326889_46697_2-VESTIDO-CURTO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638481828008300000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+}
+
+#promotions .image-item3{
+    width: 675px;
+    height: 301px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3345994-500-750/328762_46693_2-VESTIDO-PULL-ESTAMPADO-ZEBRAS.jpg?v=638485383171600000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+}
