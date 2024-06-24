@@ -68,31 +68,107 @@ ul{
 }
 
 #promotions .image-item{
-    width: 675px;
-    height: 301px;
-    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3314202-500-750/326890_46697_2-VESTIDO-LONGO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638452398480100000);
+    width: 780px;
+    height: 501px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3357763-500-750/326754_46696_2-CAPA-DE-CHUVA-XO-AGUA-ESTAMPADA-ELEFANTES.jpg?v=638508843773800000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
 }  
 
 #promotions .image-item2{
-    width: 675px;
-    height: 301px;
+    width: 780px;
+    height: 501px;
     background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3336966-500-750/326889_46697_2-VESTIDO-CURTO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638481828008300000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
 }
 
 #promotions .image-item3{
-    width: 675px;
-    height: 301px;
+    width: 780px;
+    height: 501px;
     background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3345994-500-750/328762_46693_2-VESTIDO-PULL-ESTAMPADO-ZEBRAS.jpg?v=638485383171600000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;
     box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
 }
+
+.produtos{
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    flex: 0 0 300px; /* Largura de cada slide */
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .buy-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+     color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .slider-controls button {
+    padding: 5px;
+    background-color: #525353;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  footer{
+    background-color:  rgb(3, 110, 91);
+    color: #070707;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+ 
