@@ -11,6 +11,7 @@ ul{
 
 .site-header{
     display: flex;
+    justify-content: space-between;
     gap: 50px;
     align-items: center;
     padding: 20px;
@@ -68,8 +69,8 @@ ul{
 }
 
 #promotions .image-item{
-    width: 780px;
-    height: 501px;
+    width: 790px;
+    height: 601px;
     background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3357763-500-750/326754_46696_2-CAPA-DE-CHUVA-XO-AGUA-ESTAMPADA-ELEFANTES.jpg?v=638508843773800000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
@@ -79,8 +80,8 @@ ul{
 }  
 
 #promotions .image-item2{
-    width: 780px;
-    height: 501px;
+    width: 790px;
+    height: 601px;
     background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3336966-500-750/326889_46697_2-VESTIDO-CURTO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638481828008300000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
@@ -90,8 +91,8 @@ ul{
 }
 
 #promotions .image-item3{
-    width: 780px;
-    height: 501px;
+    width: 790px;
+    height: 601px;
     background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3345994-500-750/328762_46693_2-VESTIDO-PULL-ESTAMPADO-ZEBRAS.jpg?v=638485383171600000);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     background-position: center; /* Centraliza a imagem */
@@ -165,10 +166,17 @@ ul{
 
   footer{
     background-color:  rgb(3, 110, 91);
-    color: #070707;
+    color: #fbfafa;
     padding: 20px;
     box-sizing: border-box;
     width: 100%;
   }
+
+  .contact{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
 
  
