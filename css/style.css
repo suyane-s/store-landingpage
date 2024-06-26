@@ -11,14 +11,17 @@ ul{
 
 .site-header{
     display: flex;
+    justify-content: space-between;
     gap: 50px;
     align-items: center;
     padding: 20px;
+    justify-content: space-between;
 }
 
 .site-logo{
     font-family: sans-serif;
     color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .menu-list{
@@ -31,7 +34,11 @@ ul{
     text-decoration: none;
     font-weight: bold;
     color: rgb(3, 110, 91);
-    font-size: 22px;
+    font-size: 15px;
+}
+
+.img{
+    width: 14px;
 }
 
 #home{
@@ -46,13 +53,14 @@ ul{
 
 .home-bg-image{
     width: 100%;
-    border-radius: 30px;
 }
 
 .promotions-title{
     text-align: center;
     margin: 40px 0;
     color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
 }
 
 .promotions-images{
@@ -62,8 +70,97 @@ ul{
 }
 
 #promotions .image-item{
-    width: 635px;
-    height: 451px;
-    background-image: url(https://www.melissa.com.br/ccstore/v1/images/?source=/file/v5485647716565119949/products/cor.36066.36066BE51411_o.jpg&height=550&width=550);
-    border-radius: 20px;
+    width: 790px;
+    height: 601px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3357763-500-750/326754_46696_2-CAPA-DE-CHUVA-XO-AGUA-ESTAMPADA-ELEFANTES.jpg?v=638508843773800000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
 }  
+
+#promotions .image-item2{
+    width: 790px;
+    height: 601px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3336966-500-750/326889_46697_2-VESTIDO-CURTO-ESTAMPADO-TIGRE-DA-NOITE.jpg?v=638481828008300000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
+}
+
+#promotions .image-item3{
+    width: 790px;
+    height: 601px;
+    background-image: url(https://lojafarm.vteximg.com.br/arquivos/ids/3345994-500-750/328762_46693_2-VESTIDO-PULL-ESTAMPADO-ZEBRAS.jpg?v=638485383171600000);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    box-shadow: 2px 4px 5px 0 rgb(129, 129, 129);
+    border-radius: 10px;
+}
+
+.produtos{
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(3, 110, 91);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 8px 0;
+    border-radius: 5px;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    flex: 0 0 300px; /* Largura de cada slide */
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .buy-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+     color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .slider-controls button {
+    padding: 5px;
+    background-color: #525353;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
